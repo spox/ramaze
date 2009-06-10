@@ -22,6 +22,7 @@ module Ramaze
     # Engines provided by Innate are:
     # ERB, Etanni, None
 
+    auto_register :Markaby,    :mab
     auto_register :Erubis,     :erubis, :rhtml
     auto_register :Ezamar,     :zmr
     auto_register :Haml,       :haml
@@ -34,5 +35,6 @@ module Ramaze
     auto_register :Remarkably, :rem
     auto_register :Tagz,       :rb, :tagz
     auto_register :Gestalt,    :ges
+
   end
 end
